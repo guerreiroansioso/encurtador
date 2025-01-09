@@ -26,32 +26,36 @@ body {
 
 .cabecalho {
     grid-area: cabecalho;
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
+    background-color: #f4f4f4;
     padding: 10px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .lateral {
     grid-area: lateral;
     background-color: #f4f4f4;
     padding: 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .lateral2 {
     grid-area: lateral2;
     background-color: #f4f4f4;
     padding: 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .conteudo {
     grid-area: conteudo;
     background-color: #ffffff;
     padding: 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .fundo {
     grid-area: fundo;
     background-color: #ffffff;
     padding: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
