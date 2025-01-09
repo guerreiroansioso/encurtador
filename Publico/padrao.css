@@ -1,0 +1,57 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #c9c9c9;
+    color: #1e1e1e;
+    line-height: 1.4;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "cabecalho cabecalho cabecalho"
+        "conteudo lateral lateral2"
+        "fundo fundo fundo";
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 40px auto 40px;
+    height: 100vh;
+    gap: 10px;
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.lateral {
+    grid-area: lateral;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.lateral2 {
+    grid-area: lateral2;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.conteudo {
+    grid-area: conteudo;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.fundo {
+    grid-area: fundo;
+    background-color: #ffffff;
+    padding: 10px;
+}
